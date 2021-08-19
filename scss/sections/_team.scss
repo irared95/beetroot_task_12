@@ -1,0 +1,182 @@
+.team {
+    padding: 110px 0;
+}
+
+.team-top {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.team-subtitle {
+    font-family: $raleway-medium, $ss;
+    font-size: 18px;
+    color: $grey;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.team-title-decor {
+    margin: 0 auto;
+    max-width: 460px;
+    width: 100%;
+}
+
+.team-title-decor img {
+    display: block;
+    width: 100%;
+}
+
+.team-title {
+    font-family: $roboto-black, $ss;
+    font-size: 60px;
+    color: $yellow;
+    line-height: 62px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.team-bottom-slider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.team-center-line {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: $yellow;
+}
+
+.team-bottom-image-wrapper {
+    position: relative;
+    padding: 15px;
+    font-size: 0;
+}
+
+.team-bottom-image {
+    max-width: 390px;
+    width: 100%;
+    border: 1px solid $yellow;
+}
+
+.team-bottom-image img {
+    display: block;
+    width: 100%;
+}
+
+.team-bottom-right,
+.team-bottom-left {
+    width: 42%;
+}
+
+.team-bottom-right {
+    padding: 70px 0;
+}
+
+.team-bottom-image {
+    max-width: 100%;
+    display: inline-block;
+    border: 1px solid $yellow;
+}
+
+.team-bottom-right {
+    text-align: center;
+}
+
+.team-bottom-title {
+    position: relative;
+    font-size: 36px;
+    font-family: $roboto-black, $ss;
+    color: $dark-grey;
+    line-height: 38px;
+    margin-bottom: 46px;
+}
+
+.team-bottom-title:after {
+    content: '';
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: $yellow;
+}
+
+.team-bottom-image-decor-square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.team-bottom-image-decor-square.bottom {
+    bottom: 0;
+    border-bottom: 1px solid $yellow;
+}
+
+.team-bottom-image-decor-square.top {
+    top: 0;
+    border-top: 1px solid $yellow;
+}
+
+.team-bottom-image-decor-square.right {
+    right: 0;
+    border-right: 1px solid $yellow;
+}
+
+.team-bottom-image-decor-square.left {
+    left: 0;
+    border-left: 1px solid $yellow;
+}
+
+.team-slider-title {
+    font-size: 24px;
+    font-family: $raleway-regular, $ss;
+    color: $dark-grey;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.team-bottom-slider {
+    margin-bottom: 34px;
+}
+
+.team-slider-text {
+    max-width: 394px;
+    display: inline-block;
+    font-family: $raleway-medium, $ss;
+    font-size: 14px;
+    color: $black;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.decors-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.decors-item {
+    display: inline-block;
+    width: 10px;
+    border: 2px solid $yellow;
+    margin-right: 4px;
+}
+
+.decors-item:last-child {
+    margin-right: 0;
+}
+
+.decors-item.long {
+    width: 20px;
+}

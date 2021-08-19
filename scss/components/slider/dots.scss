@@ -1,0 +1,25 @@
+.slider-dots-list {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-dots-item {
+    margin-right: 10px;
+}
+
+.slider-dots-item:last-child {
+    margin: 0;
+}
+
+.dots-button {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid $yellow;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.dots-button:hover {
+    background-color: $yellow;
+}

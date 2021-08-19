@@ -1,0 +1,19 @@
+.team-bottom-arrow.left {
+    left: 0;
+}
+
+.team-bottom-arrow.right {
+    right: 0;
+}
+
+.team-bottom-arrow.left,
+.team-bottom-arrow.right {
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.team-bottom-arrow.left:hover,
+.team-bottom-arrow.right:hover {
+    opacity: 0.5;
+}

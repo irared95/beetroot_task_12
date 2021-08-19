@@ -1,0 +1,55 @@
+@import "./utils/fonts";
+@import "./utils/variable";
+* {
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    outline: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import "./sections/team";
+@import "./components/socials";
+@import "./buttons/primary-button";
+@import "./components/slider/dots";
+@import "./components/slider/arrows";

@@ -1,0 +1,17 @@
+.team-slider-button {
+    font-size: 14px;
+    font-family: $opensans-bold, $ss;
+    color: $dark-grey;
+    background-color: $white;
+    line-height: 18px;
+    padding: 2px 13px;
+    transition: all 0.2s linear;
+    border: 1px solid $yellow;
+    cursor: pointer;
+}
+
+.team-slider-button:hover {
+    background-color: $dark-grey;
+    color: $white;
+    border: 1px solid $dark-grey;
+}

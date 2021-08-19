@@ -1,0 +1,59 @@
+.team-socials-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.team-socials-item {
+    margin-right: 5px;
+    font-size: 0;
+}
+
+.team-socials-item:last-child {
+    margin-right: 0;
+}
+
+.socials-img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid $light-grey;
+    background-color: $white;
+}
+
+.socials-img-facebook {
+    background-image: url(/image/icon-facebook.png);
+}
+
+.socials-img-facebook:hover {
+    opacity: 0.7;
+}
+
+.socials-img-twitter {
+    background-image: url(/image/icon-twitter.png);
+}
+
+.socials-img-twitter:hover {
+    opacity: 0.7;
+}
+
+.socials-img-google {
+    background-image: url(/image/icon-google.png);
+}
+
+.socials-img-google:hover {
+    opacity: 0.7;
+}
+
+.socials-img-linkedin {
+    background-image: url(/image/icon-linkedin.png);
+}
+
+.socials-img-linkedin:hover {
+    opacity: 0.7;
+}
