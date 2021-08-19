@@ -378,7 +378,7 @@ button {
 }
 
 .socials-img-facebook {
-  background-image: url(/image/icon-facebook.png);
+  background-image: url(../image/icon-facebook.png);
 }
 
 .socials-img-facebook:hover {
@@ -386,7 +386,7 @@ button {
 }
 
 .socials-img-twitter {
-  background-image: url(/image/icon-twitter.png);
+  background-image: url(../image/icon-twitter.png);
 }
 
 .socials-img-twitter:hover {
@@ -394,7 +394,7 @@ button {
 }
 
 .socials-img-google {
-  background-image: url(/image/icon-google.png);
+  background-image: url(../image/icon-google.png);
 }
 
 .socials-img-google:hover {
@@ -402,7 +402,7 @@ button {
 }
 
 .socials-img-linkedin {
-  background-image: url(/image/icon-linkedin.png);
+  background-image: url(../image/icon-linkedin.png);
 }
 
 .socials-img-linkedin:hover {
